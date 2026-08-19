@@ -1,5 +1,14 @@
 # FlyRank ML Internship — Starter Repo
 
+## 📄 Capstone Paper
+
+**Predicting Content Decline Using Search Signals**  
+🔗 [View the live paper](https://maryam-shehzadi434.github.io/flyrank-internship-ml/)  
+
+**Author:** Maryam Shehzadi  
+**Lane:** Lane 1 — Content Refresh Prediction  
+**Repo:** [https://github.com/Maryam-Shehzadi434/flyrank-Internship-ml](https://github.com/Maryam-Shehzadi434/flyrank-Internship-ml)
+
 **Applied Search Intelligence: Google Search Ranking & Discoverability**
 
 This is the starting point for the FlyRank ML Internship. You **clone it into your own public
