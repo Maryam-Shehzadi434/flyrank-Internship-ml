@@ -3,7 +3,7 @@
 ## 📄 Capstone Paper
 
 **Predicting Content Decline Using Search Signals**  
-🔗 [View the live paper](https://maryam-shehzadi434.github.io/flyrank-internship-ml/)  
+🔗 [View the live paper](https://maryam-shehzadi434.github.io/flyrank-Internship-ml/)  
 
 **Author:** Maryam Shehzadi  
 **Lane:** Lane 1 — Content Refresh Prediction  
