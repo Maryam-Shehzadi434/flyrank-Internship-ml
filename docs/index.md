@@ -2,16 +2,17 @@
 
 **Author:** Maryam Shehzadi
 **Lane:** Lane 1 — Content Refresh Prediction
+
 **Repo:** https://github.com/Maryam-Shehzadi434/flyrank-Internship-ml
 **Date:** 19 August 2026
 
-\---
+
 
 ## Abstract
 
 Can we predict which pages are declining using observable search signals? I analyzed 176,738 pages from the March 2026 FlyRank warehouse, using 6 features (impressions, CTR, position, age, clicks, word\_count). A Random Forest model with client-holdout validation achieved 1.000 Precision@50, beating the hand-written baseline by 4.2 times. This work helps content teams prioritize which pages to review first, saving time and improving search performance.
 
-\---
+
 
 ## 1\. Problem Framing
 
@@ -34,7 +35,7 @@ Can we predict which pages are declining using observable search signals? I anal
 * False negative: Lost traffic and revenue
 * Ranking error: Delayed action worsens decline
 
-\---
+
 
 ## 2\. Data Safety
 
@@ -50,7 +51,7 @@ Can we predict which pages are declining using observable search signals? I anal
 * client\_hash\_id, content\_hash\_id: Context only
 * Product decision flags: Not in data
 
-\---
+
 
 ## 3\. Baseline
 
@@ -58,7 +59,6 @@ Can we predict which pages are declining using observable search signals? I anal
 
 **Performance:** Precision@50 = 0.240, Base Rate = 0.396
 
-\---
 
 ## 4\. Model / Analysis
 
@@ -75,7 +75,7 @@ Can we predict which pages are declining using observable search signals? I anal
 
 **Target:** is\_declining = impressions\_90d < median\_impressions
 
-\---
+
 
 ## 5\. Evaluation
 
@@ -89,7 +89,7 @@ Can we predict which pages are declining using observable search signals? I anal
 * Random Forest: Precision@50 = 1.000
 * Improvement: 4.2 times
 
-\---
+
 
 ## 6\. Interpretation
 
@@ -104,7 +104,6 @@ Can we predict which pages are declining using observable search signals? I anal
 
 **Key Insight:** impressions\_90d is the strongest predictor. Age alone does not predict decline.
 
-\---
 
 ## 7\. Recommendation
 
@@ -132,7 +131,7 @@ Can we predict which pages are declining using observable search signals? I anal
 |Improve SEO|475|0.3%|
 |Update|202|0.1%|
 
-\---
+
 
 ## 8\. Reproducibility
 
@@ -145,7 +144,6 @@ python scripts/run\_all.py
 
 **Environment:** Python 3.12, Colab
 
-\---
 
 ## 9\. Acknowledgments and Data Credit
 
